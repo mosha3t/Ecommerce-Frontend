@@ -10,7 +10,8 @@ const Header = () => {
     <header>
       <div className={headerContainer}>
         <h1 className={headerLogo}>
-          <span>our</span> <Badge bg="info">Ecom</Badge>
+          <span>our</span> {/* Remove the text here */}
+          <Badge bg="info">Ecom</Badge>
         </h1>
 
         <HeaderBasket />
